@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&family=Roboto:wght@100;300;400;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: "Poppins" sans-serif;
+}
+
+
+/*******************************NAVBAR*******************************/
+
+.container-fluid img {
+  cursor: pointer;
+}
+
+.navbar ul li a {
+  position: relative;
+  
+}
+
+.navbar ul li a:hover:after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: #0000FF;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.2s;
+  opacity: 1;
+}
+
+/*******************************HEADER*******************************/
+
+.home {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Components/Image/home.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.home h1 {
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+  animation-delay: .7s;
+}
+
+.home p {
+  margin: 0;
+  opacity: 0;
+  animation: slideLeft 1s ease forwards;
+  animation-delay: 1s;
+}
+
+.home .social a {
+  color: #0000FF;
+}
+
+.home .social a:hover {
+  color: #ffffff;
+}
+
+.home {
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+
+.home .downloadbtn {
+  box-shadow: 0 0 7px #ffffff;
+  font-weight: bold;
+  margin-right: 15px;
+  color: #ffffff;
+  background-color: #0000FF;
+  border: #0000FF;
+}
+
+.home .downloadbtn:hover {
+  color: #000;
+  background-color: #ffffff;
+  box-shadow: 0 0 7px #0000FF;
+  border: #ffffff;
+}
+
+.home .hirebtn {
+  box-shadow: 0 0 7px #0000FF;
+  font-weight: bold;
+  margin-right: 15px;
+  color: #000;
+  background-color: #ffffff;
+  border: #0000FF;
+}
+
+.home .hirebtn:hover {
+  color: #ffffff;
+  background-color: #0000FF;
+  box-shadow: 0 0 7px #ffffff;
+  border: #ffffff;
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translatex(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translatex(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
+
+/*******************************MYPORTFOLIO*******************************/
+
+.gallery img {
+  width: 340px;
+  height: 240px;
+  margin: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.gallery img:hover {
+  border: 1px solid #0000FF;
+  transition: 1s ease;
+  transform: translate(-5px) scale(1.03);
+  cursor: pointer;
+}
+
+/*******************************MYSERVICES*******************************/
+
+#service .card:hover {
+  border: 1px solid #0000FF;
+  transition: 1s ease;
+  transform: translate(-5px) scale(1.03);
+  cursor: pointer;
+}
+
+/*******************************MYSERVICES*******************************/
+
+.contant-form .form-field {
+  position: relative;
+  margin: 40px 0;
+}
+
+.contant-form .input-text {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-width: 0 0 2px 0;
+  border-color: #777;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.contant-form .input-text:focus {
+  outline: none;
+}
+
+.contant-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  cursor: text;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contant-form .submit-btn {
+  display: inline-block;
+  background-image: linear-gradient(125deg, #000, #0000FF);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+  box-shadow: 0 0 7px #000;
+  font-weight: bold;
+}
+
+.contant-form .submit-btn:hover {
+  background-image: linear-gradient(125deg, #0000FF, #000);
+  transition: -5s ease;
+  box-shadow: 0 0 15px #000;
+}
+
+.contant-form .input-text:focus+.label,
+.contant-form .input-text.not-empty+.label {
+  transform: translateY(-24px);
+}
