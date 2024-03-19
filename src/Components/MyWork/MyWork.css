@@ -1,0 +1,87 @@
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.work .work-container {
+  padding: 10px 10%;
+  width: 100%;
+
+}
+
+.work .work-container h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.work .work-container .work-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+}
+
+.work .work-container .work-list-container .work-list {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.work .work-container .work-list-container .work,
+img {
+  display: block;
+  width: 100%;
+  height: 350px;
+  margin-top: 40px;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
+.work .work-container .work-list-container .work-list:hover img {
+  transform: scale(1.1);
+}
+
+.work .work-container .work-list-container .work-list .layer {
+  color: #fff;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #0000ff);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+
+.work .work-container .work-list-container .work-list .layer h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.work .work-container .work-list-container .work-list .layer a {
+  color: #0000ff;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.work .work-container .work-list-container .work-list:hover .layer {
+  height: 100%;
+}
+

@@ -1,0 +1,19 @@
+.copy-right {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: #262626;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.copy-right .fa-icon {
+  color: #ff004f;
+}
+
+@media (max-width: 733px) {
+  .copy-right {
+    font-size: 15px;
+  }
+}
