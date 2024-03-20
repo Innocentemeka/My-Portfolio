@@ -1,4 +1,5 @@
 .copy-right {
+  font-size: 15px;
   color: #fff;
   width: 100%;
   text-align: center;
@@ -14,6 +15,6 @@
 
 @media (max-width: 733px) {
   .copy-right {
-    font-size: 15px;
+    font-size: 13px;
   }
 }

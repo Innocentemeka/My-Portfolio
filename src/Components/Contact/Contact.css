@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #080808;
+}
+
 .contact {
   padding: 40px;
   margin-top: 50px;
@@ -88,7 +99,6 @@ form textarea {
   border: #ffffff;
 }
 
-
 @media (max-width: 733px) {
   .contact-container {
     display: block;
@@ -97,7 +107,8 @@ form textarea {
   .contact-container .contact-left {
     margin-bottom: 40px;
   }
-  .contact-container .contact-left, .contact-right {
+  .contact-container .contact-left,
+  .contact-right {
     flex-basis: 100%;
   }
 }

@@ -1,5 +1,5 @@
 // import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Components/NavBar/Navbar';
 import HeroSection from './Components/HomeSection/HeroSection';
 import AboutMe from './Components/About/AboutMe';

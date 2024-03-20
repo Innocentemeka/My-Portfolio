@@ -5,8 +5,8 @@ const CopyRight = () => {
   return (
     <div className="copy-right">
       <p>
-        Copyright © Inncent. Made with <FaHeart className="fa-icon" /> by
-        Inncent Emeka
+        Copyright © Innocent. Made with <FaHeart className="fa-icon" /> by
+        Innocent Emeka
       </p>
     </div>
   );
