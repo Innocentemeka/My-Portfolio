@@ -4,31 +4,81 @@ import { Link } from "react-scroll";
 import { useState } from "react";
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [showMenuOpen, setShowMenuOpen] = useState(false);
   return (
     <nav>
       <img src={logo} alt="navbar-icon" />
-      <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+      <div className="menu" onClick={() => setShowMenuOpen(!showMenuOpen)}>
         <span></span>
         <span></span>
         <span></span>
       </div>
 
-      <ul className={menuOpen ? "open" : ""}>
+      <ul className={showMenuOpen ? "navMenu" : ""}>
         <li>
-          <Link to="home">Home</Link>
+          <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            onClick={() => setShowMenuOpen(false)}
+          >
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="about">About</Link>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+            onClick={() => setShowMenuOpen(false)}
+          >
+            About
+          </Link>
         </li>
         <li>
-          <Link to="my-work">Portfolio</Link>
+          <Link
+            activeClass="active"
+            to="portfolio"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+            onClick={() => setShowMenuOpen(false)}
+          >
+            Portfolio
+          </Link>
         </li>
         <li>
-          <Link to="service">Services</Link>
+          <Link
+            activeClass="active"
+            to="service"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+            onClick={() => setShowMenuOpen(false)}
+          >
+            Services
+          </Link>
         </li>
         <li>
-          <Link to="contact">Contact Me</Link>
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+            onClick={() => setShowMenuOpen(false)}
+          >
+            Contact Me
+          </Link>
         </li>
       </ul>
     </nav>

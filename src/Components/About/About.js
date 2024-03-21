@@ -1,9 +1,10 @@
 import "./About.css";
 import aboutMe from "../Image/inn.png";
 import { FaDownload } from "react-icons/fa";
-import { Link } from "react-scroll";
+import innocent from "../Image/innocent_CV.png";
+// import { Link } from "react-scroll";
 
-const AboutMe = () => {
+const About = () => {
   return (
     <section id="about" className="about">
       <div className="about-container">
@@ -34,9 +35,9 @@ const AboutMe = () => {
               their brand identity..
             </p>
             <div className="button-container">
-              <Link href="Image/innocent_CV" download className="btn">
+              <a href={innocent} download="Innocent_Resume" className="btn">
                 Download CV <FaDownload className="fa-download" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -45,4 +46,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default About;

@@ -1,45 +1,34 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-body {
-  background: #080808;
-}
-
-.work {
+.works {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
 }
 
-.work .work-container {
+.works .works-container {
   padding: 10px 10%;
   width: 100%;
 }
 
-.work .work-container h1 {
+.works .works-container h1 {
   color: #fff;
   font-size: 40px;
   font-weight: 500;
 }
 
-.work .work-container .work-list-container {
+.works .works-container .works-list-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
 }
 
-.work .work-container .work-list-container .work-list {
+.works .works-container .works-list-container .work-list {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
 }
 
-.work .work-container .work-list-container .work,
+.works .works-container .works-list-container .work,
 img {
   display: block;
   width: 100%;
@@ -49,11 +38,11 @@ img {
   transition: transform 0.5s;
 }
 
-.work .work-container .work-list-container .work-list:hover img {
+.works .works-container .works-list-container .work-list:hover img {
   transform: scale(1.1);
 }
 
-.work .work-container .work-list-container .work-list .layer {
+.works .works-container .works-list-container .work-list .layer {
   color: #fff;
   width: 100%;
   height: 0;
@@ -73,12 +62,12 @@ img {
   transition: height 0.5s;
 }
 
-.work .work-container .work-list-container .work-list .layer h3 {
+.works .works-container .works-list-container .work-list .layer h3 {
   font-weight: 500;
   margin-bottom: 20px;
 }
 
-.work .work-container .work-list-container .work-list .layer a {
+.works .works-container .works-list-container .work-list .layer a {
   color: #0000ff;
   text-decoration: none;
   font-size: 18px;
@@ -91,6 +80,6 @@ img {
   cursor: pointer;
 }
 
-.work .work-container .work-list-container .work-list:hover .layer {
+.works .works-container .works-list-container .work-list:hover .layer {
   height: 100%;
 }

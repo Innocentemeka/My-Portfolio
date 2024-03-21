@@ -1,6 +1,5 @@
-.copy-right {
+.footer {
   font-size: 15px;
-  color: #fff;
   width: 100%;
   text-align: center;
   padding: 25px 0;
@@ -9,12 +8,12 @@
   margin-top: 20px;
 }
 
-.copy-right .fa-icon {
+.footer .fa-icon {
   color: #ff004f;
 }
 
 @media (max-width: 733px) {
-  .copy-right {
+  .footer {
     font-size: 13px;
   }
 }

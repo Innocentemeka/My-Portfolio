@@ -1,9 +1,9 @@
-import "./CopyRight.css";
+import "./Footer.css";
 import { FaHeart } from "react-icons/fa";
 
-const CopyRight = () => {
+const Footer = () => {
   return (
-    <div className="copy-right">
+    <div className="footer">
       <p>
         Copyright © Innocent. Made with <FaHeart className="fa-icon" /> by
         Innocent Emeka
@@ -12,4 +12,4 @@ const CopyRight = () => {
   );
 };
 
-export default CopyRight;
+export default Footer;

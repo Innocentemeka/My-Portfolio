@@ -1,18 +1,18 @@
-import "./MyWork.css";
+import "./Works.css";
 import Myportfolio1 from "../Image/web-1.png";
 import Myportfolio2 from "../Image/web-2.png";
 import Myportfolio3 from "../Image/web-3.png";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { Link } from "react-scroll";
 
-const MyWork = () => {
+const Works = () => {
   return (
-    <section className="work" id="work">
-      <div className="work-container">
+    <section className="works" id="works">
+      <div className="works-container">
         <h1>
           My <span>Work</span>
         </h1>
-        <div className="work-list-container">
+        <div className="works-list-container">
           <div className="work-list">
             <img src={Myportfolio1} alt="work-img" />
             <div className="layer">
@@ -61,4 +61,4 @@ const MyWork = () => {
   );
 };
 
-export default MyWork;
+export default Works;

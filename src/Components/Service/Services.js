@@ -3,7 +3,7 @@ import { FaCode } from "react-icons/fa";
 import { FaAppStore } from "react-icons/fa";
 import { Link } from "react-scroll";
 
-const MyServices = () => {
+const Services = () => {
   return (
     <section id="service" className="services">
       <div className="services-container">
@@ -39,4 +39,4 @@ const MyServices = () => {
   );
 };
 
-export default MyServices;
+export default Services;

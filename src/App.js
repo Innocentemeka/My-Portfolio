@@ -1,23 +1,23 @@
 // import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './Components/NavBar/Navbar';
-import HeroSection from './Components/HomeSection/HeroSection';
-import AboutMe from './Components/About/AboutMe';
-import MyWork from './Components/MyWork/MyWork';
-import MyServices from './Components/Service/MyServices';
-import Contact from './Components/Contact/Contact';
-import CopyRight from './Components/CopyRight/CopyRight';
+import Navbar from "./Components/NavBar/Navbar";
+import HeroSection from "./Components/HeroSection/HeroSection";
+import About from "./Components/About/About";
+import Works from "./Components/Works/Works";
+import Services from "./Components/Service/Services";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div className='App'>
-    <Navbar />
-    <HeroSection/>
-    <AboutMe/>
-    <MyWork/>
-    <MyServices/>
-    <Contact/>
-    <CopyRight/>
+    <div className="App">
+      <Navbar />
+      <HeroSection />
+      <About />
+      <Works />
+      <Services />
+      <Contact />
+      <Footer />
     </div>
   );
 }
