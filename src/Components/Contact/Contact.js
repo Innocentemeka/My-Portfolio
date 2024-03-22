@@ -7,7 +7,6 @@ import { FaFacebook } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { Link } from "react-scroll";
 import PopUp from "../PopUp/PopUp";
 import { useState } from "react";
 
@@ -34,8 +33,7 @@ const Contact = () => {
     setSuccess(true);
   };
 
-  // hide result
-
+  // hide success
   setTimeout(() => {
     setSuccess(false);
   }, 5000);
@@ -52,18 +50,36 @@ const Contact = () => {
             <FaPhoneSquareAlt className="fa-icon" /> +2348108358516
           </p>
           <div className="social-icons">
-            <Link>
+            <a
+              href={"https://www.facebook.com/chioma.som.5"}
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaFacebook />
-            </Link>
-            <Link>
+            </a>
+            <a
+              href={"https://wa.me/qr/M6OKMPSP52JUP1"}
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaWhatsapp />
-            </Link>
-            <Link>
+            </a>
+            <a
+              href={
+                "https://www.instagram.com/invites/contact/?i=1va1pnz4wqdvo&utm_content=a2bbji6"
+              }
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaInstagram />
-            </Link>
-            <Link>
+            </a>
+            <a
+              href={"https://www.linkedin.com/in/innocent-emeka-b879402a6/"}
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaLinkedin />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="contact-right">
