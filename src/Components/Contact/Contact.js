@@ -36,9 +36,9 @@ const Contact = () => {
 
   // hide result
 
-  // setTimeout(() => {
-  //   setSuccess(false);
-  // }, 5000);
+  setTimeout(() => {
+    setSuccess(false);
+  }, 5000);
 
   return (
     <div id="contact" className="contact">
