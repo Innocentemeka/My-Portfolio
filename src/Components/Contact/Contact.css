@@ -88,6 +88,8 @@ form textarea {
   border: #ffffff;
 }
 
+/*---------------css for small screens---------------*/
+
 @media (max-width: 733px) {
   .contact-container {
     display: block;

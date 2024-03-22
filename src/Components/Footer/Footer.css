@@ -12,6 +12,8 @@
   color: #ff004f;
 }
 
+/*---------------css for small screens---------------*/
+
 @media (max-width: 733px) {
   .footer {
     font-size: 13px;

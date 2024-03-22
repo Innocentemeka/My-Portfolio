@@ -61,6 +61,8 @@ p {
   transform: translateY(-10px);
 }
 
+/*---------------css for small screens---------------*/
+
 @media (max-width: 1040px) {
   .services-container .services-list-container {
     display: block;

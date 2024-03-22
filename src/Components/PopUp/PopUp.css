@@ -1,0 +1,13 @@
+.popup-container p {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 300;
+}
+
+/*---------------css for small screens---------------*/
+
+@media screen and (max-width: 600px) {
+  .popup-container p {
+    font-size: 12px;
+  }
+}

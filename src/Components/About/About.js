@@ -1,8 +1,7 @@
 import "./About.css";
-import aboutMe from "../Image/inn.png";
+import myPhoto from "../Image/inn.png";
 import { FaDownload } from "react-icons/fa";
-import innocent from "../Image/innocent_CV.png";
-// import { Link } from "react-scroll";
+import innocentCv from "../Image/innocent_CV.png";
 
 const About = () => {
   return (
@@ -12,10 +11,12 @@ const About = () => {
           <span>ABOUT</span> ME
         </h1>
         <div className="title-container">
-          <img src={aboutMe} alt="about-icon" />
+          <img src={myPhoto} alt="about-icon" />
 
           <div className="title">
-            <h2>INN0CENT EMEKA</h2>
+            <h2>
+              Frontend React <span>Developer</span>
+            </h2>
             <p>
               I am a skilled web designer with over 1 year of experience in the
               industry. My passion lies in creating captivating website designs
@@ -35,7 +36,7 @@ const About = () => {
               their brand identity..
             </p>
             <div className="button-container">
-              <a href={innocent} download="Innocent_Resume" className="btn">
+              <a href={innocentCv} download="Innocent_Resume" className="btn">
                 Download CV <FaDownload className="fa-download" />
               </a>
             </div>

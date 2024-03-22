@@ -62,6 +62,8 @@
   }
 }
 
+/*---------------css for small screens---------------*/
+
 @media (max-width: 1000px) {
   .home .home-container .home-text {
     margin-top: 300px;
