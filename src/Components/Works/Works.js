@@ -3,7 +3,6 @@ import Myportfolio1 from "../Image/web-1.png";
 import Myportfolio2 from "../Image/web-2.png";
 import Myportfolio3 from "../Image/web-3.png";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { Link } from "react-scroll";
 
 const Works = () => {
   return (
@@ -16,43 +15,44 @@ const Works = () => {
           <div className="work-list">
             <img src={Myportfolio1} alt="work-img" />
             <div className="layer">
-              <h3>my portfolio</h3>
-              <p>
-                I am a skilled web designer with over 1 year of experience in
-                the industry. My passion lies in creating captivating website
-                designs
-              </p>
-              <Link>
+              <h3>VIO Website</h3>
+              <p>Lagos State Vehicle Inspection Service</p>
+              <a href="https://vio-website-ashy.vercel.app/#" target="_blank">
                 <FaExternalLinkAlt />
-              </Link>
+              </a>
             </div>
           </div>
           <div className="work-list">
             <img src={Myportfolio2} alt="work-img" />
             <div className="layer">
-              <h3>my portfolio</h3>
+              <h3>Movie Website</h3>
               <p>
-                I am a skilled web designer with over 1 year of experience in
-                the industry. My passion lies in creating captivating website
-                designs
+                Movie website allows users to watch different kinds of movies on
+                one platform and can also search for their desired movies using
+                a search bar.
               </p>
-              <Link>
+              <a
+                href="https://movie-app-cyan-pi-36.vercel.app/"
+                target="_blank"
+              >
                 <FaExternalLinkAlt />
-              </Link>
+              </a>
             </div>
           </div>
           <div className="work-list">
             <img src={Myportfolio3} alt="work-img" />
             <div className="layer">
-              <h3>my portfolio</h3>
+              <h3>Weather App</h3>
               <p>
-                I am a skilled web designer with over 1 year of experience in
-                the industry. My passion lies in creating captivating website
-                designs
+                Use the Weather app to check the weather for your current
+                location.
               </p>
-              <Link>
+              <a
+                href="https://weatherapp-beryl-eta.vercel.app/"
+                target="_blank"
+              >
                 <FaExternalLinkAlt />
-              </Link>
+              </a>
             </div>
           </div>
         </div>

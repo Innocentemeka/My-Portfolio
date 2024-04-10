@@ -1,6 +1,6 @@
 import "./Services.css";
 import { FaCode } from "react-icons/fa";
-import { FaAppStore } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const Services = () => {
@@ -13,23 +13,19 @@ const Services = () => {
         <div className="services-list-container">
           <div className="services-list">
             <FaCode className="fa-icon" />
-            <h2>Web Design</h2>
+            <h2>Frontend Developer</h2>
             <p>
-              A personal portfolio website is a professional website that
-              provides information about what you do, what services you may
-              offer, and how to contact you or your company. Portfolio websites
-              are an easy way to promote yourself, your brand, or your business.
+              I am a frontend developer with a passion for buildind beautiful
+              and functional web applications.
             </p>
             <Link>Learn more</Link>
           </div>
           <div className="services-list">
-            <FaAppStore className="fa-icon" />
-            <h2>App Design</h2>
+            <FaReact className="fa-icon" />
+            <h2>React Native Developer</h2>
             <p>
-              A personal portfolio website is a professional website that
-              provides information about what you do, what services you may
-              offer, and how to contact you or your company. Portfolio websites
-              are an easy way to promote yourself, your brand, or your business.
+              I am a React Native developer with a passion for creating
+              beautiful and functional web applications.
             </p>
             <Link>Learn more</Link>
           </div>

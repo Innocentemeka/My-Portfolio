@@ -7,7 +7,9 @@ const Navbar = () => {
   const [showMenuOpen, setShowMenuOpen] = useState(false);
   return (
     <nav>
-      <img src={logo} alt="navbar-icon" />
+      <Link to="home" smooth={true} duration={500}>
+        <img src={logo} alt="navbar-icon" />
+      </Link>
       <div className="menu" onClick={() => setShowMenuOpen(!showMenuOpen)}>
         <span></span>
         <span></span>
