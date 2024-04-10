@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section className="home" id="home">
       <div className="home-container">
         <div className="home-text">
-          <p>Web Designer</p>
+          <p>Frontend Developer</p>
           <h1>
             Hi, I'm <span>Innocent</span> <br />
             Emeka From Nigeria
