@@ -16,7 +16,7 @@
 .services-container .services-list-container .services-list {
   color: #fff;
   background: #262626;
-  padding: 30px;
+  padding: 40px;
   font-size: 13px;
   font-weight: 300;
   border-radius: 10px;
@@ -43,7 +43,7 @@
 .services-container .services-list-container .services-container .services-list,
 p {
   color: #fff;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 20px;
 }
 

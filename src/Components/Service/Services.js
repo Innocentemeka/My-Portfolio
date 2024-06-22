@@ -1,7 +1,6 @@
 import "./Services.css";
 import { FaCode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
-import { Link } from "react-scroll";
 
 const Services = () => {
   return (
@@ -15,10 +14,9 @@ const Services = () => {
             <FaCode className="fa-icon" />
             <h2>Frontend Developer</h2>
             <p>
-              I am a frontend developer with a passion for buildind beautiful
+              I am a frontend developer with a passion for building beautiful
               and functional web applications.
             </p>
-            <Link>Learn more</Link>
           </div>
           <div className="services-list">
             <FaReact className="fa-icon" />
@@ -27,7 +25,6 @@ const Services = () => {
               I am a React Native developer with a passion for creating
               beautiful and functional web applications.
             </p>
-            <Link>Learn more</Link>
           </div>
         </div>
       </div>

@@ -33,14 +33,14 @@ const Navbar = () => {
         <li>
           <Link
             activeClass="active"
-            to="about"
+            to="skills"
             spy={true}
             smooth={true}
             offset={-80}
             duration={500}
             onClick={() => setShowMenuOpen(false)}
           >
-            About
+            Skills
           </Link>
         </li>
         <li>
