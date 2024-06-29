@@ -103,3 +103,13 @@ form textarea {
     flex-basis: 100%;
   }
 }
+
+@media (max-width: 310px) {
+  .contact-container .contact-left p {
+    font-size: 13px;
+  }
+
+  .contact-container .contact-left .fa-icon  {
+    font-size: 15px;
+  }
+}

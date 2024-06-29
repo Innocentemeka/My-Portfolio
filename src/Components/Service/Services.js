@@ -14,16 +14,17 @@ const Services = () => {
             <FaCode className="fa-icon" />
             <h2>Frontend Developer</h2>
             <p>
-              I am a frontend developer with a passion for building beautiful
-              and functional web applications.
+              Develop new user-facing features, determine the structure and
+              design of web pages, building reusable codes, optimizing page
+              loading times.
             </p>
           </div>
           <div className="services-list">
             <FaReact className="fa-icon" />
-            <h2>React Native Developer</h2>
+            <h2>React Developer</h2>
             <p>
-              I am a React Native developer with a passion for creating
-              beautiful and functional web applications.
+              Design and implement user interfaces (UIs) and UI components using
+              React. Develop and manitain UIs for web and mobile apps.
             </p>
           </div>
         </div>

@@ -1,25 +1,36 @@
-.about-container {
+.skills {
+  padding: 10px 10%;
+}
+.skills-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 10px 10%;
 }
 
-.about-container h1 {
+.skills-container h1 {
   color: #fff;
   font-size: 40px;
   font-weight: 500;
-  margin-bottom: 27px;
 }
 
-.about-container .title-container .title h2 {
+.skills-container .skills-list-container {
+  align-items: center;
+  margin-top: 40px;
+}
+
+.skills-container .skills-list-container .skills-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-container .skills-list-container .skills-list h2 {
   color: #fff;
   font-size: 35px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-.about-container .title-container .title p {
+.skills-container .skills-list-container .skills-list p {
   color: #fff;
   font-size: 18px;
   font-weight: 400;
@@ -27,7 +38,7 @@
   margin-bottom: 30px;
 }
 
-.about-container .title-container .title .button-container .btn {
+.skills-container .skills-list-container .button-container .btn {
   color: #ffffff;
   font-weight: 500;
   display: block;
@@ -42,7 +53,7 @@
   transition: background 0.5s;
 }
 
-.about-container .title-container .title .button-container .btn:hover {
+.skills-container .skills-list-container .button-container .btn:hover {
   color: #000;
   background: #ffffff;
   box-shadow: 0 0 5px #0000ff;
@@ -52,20 +63,20 @@
 /*---------------css for small screens---------------*/
 
 @media (max-width: 992px) {
-  .about-container .title-container {
+  .skills-container {
     display: block;
   }
 
-  .about-container .title-container .title {
+  .skills-container .skills-list-container {
     margin-top: 30px;
   }
 
-  .about-container .title-container img {
+  .skills-container img {
     width: 100%;
     height: 50%;
   }
 
-  .about .about-container .title-container .title .button-container .btn {
+  .about .skills-container .skills-list-container .button-container .btn {
     text-align: center;
     display: block;
     width: 100%;
@@ -73,13 +84,13 @@
 }
 
 @media (max-width: 500px) {
-  .about-container .title-container .title p {
+  .skills-container .skills-list-container .skills-list p {
     font-size: 10px;
   }
 }
 
 @media (max-width: 380px) {
-  .about-container .title-container .title h2 {
+  .skills-container .skills-list-container .skills-list h2 {
     color: #fff;
     font-size: 25px;
     font-weight: 600;
@@ -88,13 +99,13 @@
 }
 
 @media (max-width: 300px) {
-  .about-container .title-container .title h2 {
+  .skills-container .skills-list-container .skills-list h2 {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
   }
-  .about-container .title-container .title p {
+  .skills-container .skills-list-container .skills-list p {
     font-size: 7px;
   }
 }

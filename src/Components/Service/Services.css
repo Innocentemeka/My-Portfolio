@@ -45,6 +45,7 @@ p {
   color: #fff;
   font-weight: 500;
   line-height: 20px;
+  font-family: 'Courier', monospace;
 }
 
 .services-container .services-list-container .services-list a {

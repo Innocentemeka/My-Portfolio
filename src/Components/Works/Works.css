@@ -64,7 +64,17 @@ img {
 
 .works .works-container .works-list-container .work-list .layer h3 {
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.works .works-container .works-list-container .work-list .layer div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.works .works-container .works-list-container .work-list .layer p {
+  margin: 5px;
 }
 
 .works .works-container .works-list-container .work-list .layer a {
